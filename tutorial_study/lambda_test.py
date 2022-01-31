@@ -21,4 +21,4 @@ print(reduce((lambda x, y: x + y), range(1, 5)))
 
 print(list(filter((lambda x: x >= 10), range(0, 21))))
 # [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-# filter(func, list) creates new list with elements of parameter list which return 'True' value in func parameter.
+# filter(func, list) creates new list with elements of parameter list which return 'True' value in func parameter.fd
