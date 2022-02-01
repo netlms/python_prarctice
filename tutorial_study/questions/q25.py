@@ -41,12 +41,17 @@
 12/31/2018
 01/01/2019
 """
+if __name__=='__main__':
+    year, month, day = input().split()
 
-date = input()
+    print(f'{date[1]}/{date[2]}/{date[0]}')
 
-date = date.split()
+    date =
 
-date = list(map(int, date))
+    if (date[2] == 28 and date[1] == 2):
+        date[1] = 3
+        date[2] = 1
+    elif 
 
-print(f'{date[1]}/{date[2]}/{date[0]}')
 
+    print()
