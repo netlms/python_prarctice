@@ -19,3 +19,12 @@ print(dic.values())
 print((1 in dic))       # return True if the argument exist in the dict as a key. else, return false
 print((2 in dic))
 print((3 in dic))
+
+
+# update(dict) adds elements of dict to another dict. if the key already exists, it changes value to new one
+dic1 = {1 : 'one', 2 : 'too'}
+dic2 = {2 : 'two', 3 : 'three', 4 : 'four'}
+
+dic1.update(dic2)
+
+print(dic1)
