@@ -40,7 +40,7 @@ print(str)
 index = 'hi python'.find('y')
 print(index)
 
-# if there are duplicated values, then return the index of the first same element
+# if there are duplicate letters, then return the index of the first letter
 
 index = 'abcdefcg'.find('c')
 print(index)
