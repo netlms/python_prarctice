@@ -46,7 +46,6 @@ if __name__ == '__main__':
     r = f.readlines()
            
     qa = make_dic(r)
-    print(qa)    
     
     num_of_val = len((list(qa.keys())))
     q_num = randrange(0, num_of_val)
